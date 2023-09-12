@@ -1,2 +1,2 @@
 # PowerShell-Scripts
-PowerShell Scripts for automation or other fun things
+PowerShell Scripts for automation, ConnectWise RMM, or other fun things
