@@ -5,7 +5,7 @@ $currentTime = Get-Date
 $twentyFourHoursAgo = $currentTime.AddHours(-24)
 
 # Define the output file path
-$outputFilePath = "C:\Desktop" # Replace with your desired file path
+$outputFilePath = "C:\updateDump.txt" # Replace with your desired file path
 
 # Get a list of installed updates and filter them based on the installation date
 $updates = Get-HotFix | Where-Object { $_.InstalledOn -gt $twentyFourHoursAgo }
